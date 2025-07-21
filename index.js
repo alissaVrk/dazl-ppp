@@ -30,6 +30,10 @@ class Project {
     return await this.#simpleGit.push(remote, branch);
   }
 
+  async addRemote(name, url) {
+    return await this.#simpleGit.addRemote(name, url);
+  }
+
   get count() {
     return this.#count;
   }

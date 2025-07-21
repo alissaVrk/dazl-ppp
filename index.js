@@ -9,7 +9,7 @@ class Project {
       maxConcurrentProcesses: 1,
       config: ["user.name=Dazl User", "user.email=alissa.vrk@gmail.com"],
     })
-      .env("GIT_DIR", ".project-git")
+      .env("GIT_DIR", ".dazl/.project-git")
       .env("GIT_WORK_TREE", ".");
   }
 
@@ -26,7 +26,7 @@ class Project {
     return await this.#simpleGit.status();
   }
 
-  async push(remote = 'origin', branch = 'main') {
+  async push(remote = "origin", branch = "main") {
     return await this.#simpleGit.push(remote, branch);
   }
 

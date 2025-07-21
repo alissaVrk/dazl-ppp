@@ -1,0 +1,12 @@
+{
+  "name": "dazl-dual-git",
+  "version": "1.0.0",
+  "description": "A dual-git repository system with Dazl and Project repos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "simple-git": "^3.28.0"
+  }
+}

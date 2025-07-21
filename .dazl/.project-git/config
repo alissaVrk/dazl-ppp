@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	worktree = /Users/alissav/projects/test-git/dazl-git/ppp
+	ignorecase = true
+	precomposeunicode = true
+	excludesFile = .dazl/.gitignore.project

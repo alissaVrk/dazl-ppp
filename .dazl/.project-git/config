@@ -7,3 +7,6 @@
 	ignorecase = true
 	precomposeunicode = true
 	excludesFile = .dazl/.gitignore.project
+[remote "origin"]
+	url = git@github.com:alissaVrk/user-ppp.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
